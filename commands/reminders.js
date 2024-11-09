@@ -53,7 +53,7 @@ async function doReminders(client) {
 }
 
 function startReminders(client) {
-		remind(client)
+		//remind(client)
 		doReminders(client)
 		setInterval(doReminders, 1000 * 60 * checkIntervalMins, client)
 }
